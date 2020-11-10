@@ -6,7 +6,9 @@
 <title>HTML custom element for displaying 3D models: Hello World</title>
 <style>
 .model { 
-  animation: spin 10s linear infinite;
+    width: 400px;
+    height: 400px;
+    animation: spin 10s linear infinite;
  }
 
  @keyframes spin {
@@ -17,13 +19,8 @@
 </style>
 </head>
 <body>
-  <h1>Model custom element: Hello world</h1>
+  <h1>Spinning Abomination</h1>
   <x-model class="model" src="Assembly_v17.obj"></x-model>
-  <p>If everything worked OK, there should be a rotating 3D model above.</p>
-
-  <div class="panel panel--about">
-    <p><cite>HTML model element: "Hello world". Please see <a href="https://github.com/keithclark/3d-model-element">github</a> for more information.</cite></p>
-  </div>
 
   <script src="js/custom-element-polyfill.min.js"></script>
   <script src="js/three.min.js"></script>
