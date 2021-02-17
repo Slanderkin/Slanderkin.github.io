@@ -1,0 +1,25 @@
+body {
+  background-color: rgba(192,207,207,1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+}
+
+#rcorners1 {
+  border-radius: 15px;
+  background: #5A871A;/*#73AD21;*/
+  padding: 20px;
+  width: 400px;
+  height: 75px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+
+}
+
+
+#mainTitle{
+
+}

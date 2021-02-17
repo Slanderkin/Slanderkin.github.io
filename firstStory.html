@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link id = "pagestyle" rel="stylesheet" href="mainDarkMode.css">
+
+  	<script>
+	function swapStyleSheet(sheet){
+    	document.getElementById('pagestyle').setAttribute('href', sheet);
+ 	 }
+  	</script>
+	<title></title>
+</head>
+<body>
+
+<button class="button" onClick="swapStyleSheet('mainLightMode.css')">Light Mode</button>
+<button class="button" onClick="swapStyleSheet('mainDarkMode.css')">Dark Mode</button>
+<a href="index.html"><button class="button" onClick=>Home</button></a>
+<br>
+
+<h1 id = "rcorners1">Story 1</h1>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">First Category</button>
+  <div class="dropdown-content">
+    <a href="firstStory.html">First Page</a>
+  </div>
+</div>
+
+<p></p>
+</body>
+</html>
