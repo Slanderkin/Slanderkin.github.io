@@ -13,7 +13,7 @@ body {
 }
 p{
   color: var(--textColor);
-  font-size: 115%;
+  font-size:calc(12px + 0.5vw);
 }
 
 h1 {
@@ -27,21 +27,26 @@ h1 {
   position: fixed;
   top: 0.1vmax;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-51.4%,-50%);
 
 }
 
 
 img {
-  max-width: 40vmax;
-  height:auto;
-  margin-top: 7vmax;
+  max-width: 50vmax;
+  height: auto;
+  margin-top: 10vmax;
+}
+
+.topText {
+  position: absolute;
+  top: 6vmax;
 }
 
 .button {
   background-color: var(--acentColor);
   color: var(--bgColor);
-  font-size: 1vmax;
+  font-size: 1.5vmax;
   border: 0.3vmax var(--acentColor);
   border-radius: 0.3vmax;
   position: absolute;
@@ -71,7 +76,7 @@ img {
   background-color: var(--acentColor);
   color: var(--bgColor);
   padding: .5vmax;
-  font-size: 1vmax;
+  font-size: 1.5vmax;
   border: none;
   cursor: pointer;
   position: relative;
@@ -82,8 +87,8 @@ img {
 .dropdown {
   
   position: absolute;
-  top: 6vw;
-  left: 0.5vw;
+  top: 6vmax;
+  left: 0.5vmax;
   display: inline-block;
 }
 
