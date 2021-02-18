@@ -13,7 +13,7 @@ body {
 }
 p{
   color: var(--textColor);
-  font-size: max(20pt,1.25vmax);
+  font-size: 2.5vh;
 }
 
 h1 {
@@ -59,7 +59,7 @@ img {
 .button {
   background-color: var(--acentColor);
   color: var(--bgColor);
-  font-size: 1.5vmax;
+  font-size: 3vh;
   border: 0.3vmax var(--acentColor);
   border-radius: 0.3vmax;
   position: absolute;
@@ -89,7 +89,7 @@ img {
   background-color: var(--acentColor);
   color: var(--bgColor);
   padding: .5vmax;
-  font-size: 1.5vmax;
+  font-size: 3vh;
   border: none;
   cursor: pointer;
   position: relative;
