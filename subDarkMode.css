@@ -13,7 +13,7 @@ body {
 }
 p{
   color: var(--textColor);
-  font-size: min(20pt,1.1vmax) ;
+  font-size: max(20pt,1.25vmax);
 }
 
 h1 {
